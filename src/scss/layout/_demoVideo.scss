@@ -1,0 +1,30 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.demoVideo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 100px 0px;
+
+  .contenedorVideo {
+    display: flex;
+    justify-content: center;
+    .recuadroVideo {
+      border: 1px solid #05ebf7;
+      border-radius: 10px;
+      width: 550px;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+
+      .video {
+        position: relative;
+        bottom: 30px;
+        border-radius: 10px;
+        width: 500px;
+      }
+    }
+  }
+}

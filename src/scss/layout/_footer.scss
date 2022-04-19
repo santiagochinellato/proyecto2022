@@ -1,0 +1,103 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 7%;
+
+  .contenedorInfoFooter {
+    display: flex;
+    flex-direction: row;
+    .logoAndInfo {
+      width: 30%;
+      .logoFooter {
+        width: 171px;
+
+        margin-bottom: 16px;
+      }
+      p {
+        font: $textoMenu;
+        width: 80%;
+        line-height: 200%;
+        color: $colorTextoPrincipal;
+      }
+      .btn {
+        margin: 0%;
+        margin-top: 16px;
+        height: 45px;
+        width: 125px;
+      }
+    }
+    .menuOneFooter {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      font: $textoMenu;
+      color: $colorTextoPrincipal;
+      h6 {
+        font: $textoSecundario;
+        margin-bottom: 32px;
+      }
+      ul li {
+        margin-bottom: 16px;
+      }
+    }
+    .menuTwoFooter {
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      font: $textoMenu;
+      color: $colorTextoPrincipal;
+      h6 {
+        font: $textoSecundario;
+        margin-bottom: 32px;
+      }
+      ul li {
+        margin-bottom: 16px;
+      }
+    }
+    .contactFooter {
+      display: flex;
+      flex-direction: column;
+      justify-content: right;
+      margin-left: 0px;
+      width: 30%;
+
+      h6 {
+        font: $textoSecundario;
+        color: $colorTextoPrincipal;
+        margin-bottom: 21px;
+      }
+      p {
+        font: $textoMenu;
+        color: $colorTextoPrincipal;
+        margin-bottom: 21px;
+        width: 75%;
+      }
+      .infoColor {
+        color: $colorTextoSecundario;
+      }
+    }
+  }
+  .PieFooter {
+    margin: 100px 0px;
+    font: $textoSecundario;
+    color: $colorTextoPrincipal;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2b2931;
+
+    p {
+      margin: 20px 0px 0px 19px;
+      font-size: 13px;
+      color: #a7a4af;
+    }
+    img {
+      margin: 20px 19px;
+      width: 16px;
+    }
+  }
+}

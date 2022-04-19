@@ -1,0 +1,10 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+span {
+  background: -webkit-linear-gradient(to left, #2ebf91, #8360c3);
+  background: linear-gradient(to left, #2ebf91, #8360c3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #8360c3;
+}

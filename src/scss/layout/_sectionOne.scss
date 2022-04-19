@@ -1,0 +1,173 @@
+@import "../base/typo";
+@import "../utilities/variables";
+
+.sectionOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  // margin: 5% 5% 4% 5%;
+  max-height: 800px;
+
+  .containerInfo {
+    display: flex;
+    flex-direction: column;
+    color: $colorTextoPrincipal;
+    margin: 0;
+    align-self: center;
+    width: 50%;
+    margin: 5% 0 4% 7%;
+
+    h1 {
+      font: $titulo;
+      margin-bottom: 24px;
+      width: 70%;
+    }
+    p {
+      font: $textoPrincipal;
+      margin-bottom: 48px;
+      width: 60%;
+    }
+    input {
+      width: 150px;
+      margin: 0% 15px 0% 0px;
+      height: 40px;
+    }
+  }
+  .containerImages {
+    position: relative;
+    margin: 0 5%;
+    .imgCirculo {
+      position: relative;
+      width: 110%;
+      height: auto;
+      // bottom: -10%;
+      left: -20%;
+      z-index: 1;
+      animation-name: circ;
+      -webkit-animation-duration: 3s;
+      animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+
+      // @keyframes circ {
+      //   0% {
+      //     transform: scale(1, 1);
+      //   }
+      //   50% {
+      //     transform: scale(1.2, 1.2);
+      //   }
+      //   100% {
+      //     transform: scale(1, 1);
+      //   }
+      // }
+    }
+    // .imgIcon4 {
+    //   position: absolute;
+    //   width: 40%;
+    //   z-index: 2;
+    //   bottom: 70%;
+    //   left: 0%;
+    //   animation-name: icon4;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes icon4 {
+    //     0% {
+    //       transform: translateY(-30px) translateX(10px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-30px) translateX(10px);
+    //     }
+    //   }
+    // }
+    // .imgIcon5 {
+    //   position: relative;
+    //   width: 40%;
+    //   z-index: 2;
+    //   bottom: 20%;
+    //   right: -60%;
+    //   animation-name: icon5;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes icon5 {
+    //     0% {
+    //       transform: translateY(30px) translateX(10px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(30px) translateX(10px);
+    //     }
+    //   }
+    // }
+    // .imgPp3 {
+    //   position: absolute;
+    //   width: 50%;
+    //   height: auto;
+    //   z-index: 2;
+    //   top: -10%;
+    //   right: -20px;
+    //   animation-name: pp3;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes pp3 {
+    //     0% {
+    //       transform: translateY(30px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(30px);
+    //     }
+    //   }
+    // }
+    // .imgPp2 {
+    //   position: absolute;
+    //   width: 50%;
+    //   height: auto;
+    //   z-index: 2;
+    //   right: 60%;
+    //   top: 40%;
+    //   animation-name: pp2;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes pp2 {
+    //     0% {
+    //       transform: translateY(-30px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-30px);
+    //     }
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,117 @@
+@import "../utilities/variables";
+
+.btn {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 100px;
+  font: $textoMenu;
+  color: $colorTextoBoton;
+  width: 150px !important;
+  height: 40px !important;
+  &:hover {
+    color: $colorTextoPrincipal;
+    background-color: $colorTextoBoton;
+  }
+}
+
+.btnTwo {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 100px;
+  font: $textoMenu;
+  color: $colorTextoPrincipal;
+  background-color: $colorTextoBoton;
+  &:hover {
+    color: $colorTextoBoton;
+    background-color: $colorTextoPrincipal;
+  }
+}
+
+.btnThree {
+  padding: 10px;
+  margin: 13px;
+  border-radius: 100px;
+  font: $textoMenu;
+  color: $colorTextoPrincipal;
+  background-color: transparent;
+  border: $colorTextoBoton solid 3px;
+  &:hover {
+    color: $colorTextoPrincipal;
+    background-color: $colorTextoBoton;
+  }
+}
+
+.btnFour {
+  margin: 13px;
+  border-radius: 100px;
+  font: $textoMenu;
+  color: $colorTextoPrincipal;
+  background: #24c6dc;
+  background: -webkit-linear-gradient(to right, #514a9d, #24c6dc);
+  background: linear-gradient(to right, #514a9d, #24c6dc);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btnFour:hover {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+.btnFour span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btnFour:before,
+.btnFour:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btnFour:before {
+  height: 0%;
+  width: 0.1px;
+}
+.btnFour:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btnFour:hover:before {
+  height: 100%;
+}
+.btnFour:hover:after {
+  width: 100%;
+}
+.btnFour span:before,
+.btnFour span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.9),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  transition: all 0.3s ease;
+}
+.btnFour span:before {
+  width: 0.1px;
+  height: 0%;
+}
+.btnFour span:after {
+  width: 0%;
+  height: 0.1px;
+}
+.btnFour span:hover:before {
+  height: 100%;
+}
+.btnFour span:hover:after {
+  width: 100%;
+}

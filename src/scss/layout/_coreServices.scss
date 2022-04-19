@@ -1,0 +1,46 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.coreService {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 7%;
+
+  .contenedorCardsServices {
+    display: flex;
+    column-gap: 25px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px;
+    .cardCoreServices {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 30%;
+      height: 280px;
+      border: 1px solid #05ebf7;
+      border-radius: 0px 10px 0px 10px;
+    }
+
+    .imagenCardService {
+      width: 70px;
+      margin: 10px 20px;
+    }
+
+    .tituloCardService {
+      font: $textoPrincipal;
+      font-size: 1.2rem;
+      color: $colorTextoPrincipal;
+      margin: 10px 20px;
+    }
+    .textoCardService {
+      font: $textoSecundario;
+      color: $colorTextoPrincipal;
+      margin: 10px 5px 10px 20px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.sectionTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  h2 {
+    color: $colorTextoPrincipal;
+    font: $subtitulo;
+    margin-bottom: 8px;
+  }
+  p {
+    color: $colorTextoPrincipal;
+    font: $textoSecundario;
+    margin-bottom: 80px;
+  }
+  .gridEmpresas {
+    display: grid;
+    grid-template-areas:
+      ". . imgUno . ."
+      ". imgDos . imgTres ."
+      "imgCuatro . imgCinco .  imgSeis"
+      ".  imgSiete .  imgOcho  ."
+      ". . imgNueve . .";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1%;
+
+    justify-items: center;
+
+    width: 80%;
+
+    #imgUno {
+      grid-area: imgUno;
+      
+    }
+    #imgDos {
+      grid-area: imgDos;
+      position: relative;
+      bottom: 50%;
+    }
+    #imgTres {
+      grid-area: imgTres;
+      position: relative;
+      bottom: 50%;
+    }
+    #imgCuatro {
+      grid-area: imgCuatro;
+      position: relative;
+      bottom: 80%;
+    }
+    #imgCinco {
+      grid-area: imgCinco;
+      position: relative;
+      bottom: 80%;
+    }
+    #imgSeis {
+      grid-area: imgSeis;
+      position: relative;
+      bottom: 80%;
+    }
+    #imgSiete {
+      grid-area: imgSiete;
+      position: relative;
+      bottom: 130%;
+    }
+    #imgOcho {
+      grid-area: imgOcho;
+      position: relative;
+      bottom: 130%;
+    }
+    #imgNueve {
+      grid-area: imgNueve;
+      position: relative;
+      bottom: 160%;
+    }
+  }
+}

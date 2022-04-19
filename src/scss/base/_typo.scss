@@ -1,0 +1,28 @@
+// fuente manrope
+@font-face {
+  font-family: "manrope";
+  src: url("../../../public/fonts/Manrope/static/Manrope-ExtraBold.ttf");
+  font-style: bold;
+  font-weight: bold;
+}
+// helvatica neue
+@font-face {
+  font-family: "helvetica";
+  src: url("../../../public/fonts/helvetica-neue/HelveticaNeueCyr-Roman.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "helveticaMed";
+  src: url("../../../public/fonts/helvetica-neue/HelveticaNeueCyr-Medium.ttf");
+  font-style: normal;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "helveticaBold";
+  src: url("../../../public/fonts/helvetica-neue/HelveticaNeueCyr-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}

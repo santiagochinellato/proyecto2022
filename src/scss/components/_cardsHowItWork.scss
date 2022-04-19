@@ -1,0 +1,52 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.cardHowItWork {
+  background: #291674;
+  color: $colorTextoPrincipal;
+  // width: 30%;
+  height: 120px;
+  // font: $textoMenu;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 2fr;
+  grid-template-areas:
+    "num titulo titulo titulo"
+    "num texto texto texto";
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .cardHowItWorkContNum {
+    grid-area: num;
+    justify-self: center;
+    align-self: flex-start;
+    margin-top: 30%;
+    font: $titulo;
+    font-size: 1rem;
+
+    .cardHowItWorkNum {
+      border-radius: 50%;
+      background-color: #7d60f9;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .cardHowItWorkTitulo {
+    grid-area: titulo;
+    font: $textoPrincipal;
+    font-size: 1.1rem;
+    align-self: flex-end;
+  }
+  .cardHowItWorkTexto {
+    grid-area: texto;
+    font: $textoPrincipal;
+    font-size: 0.7rem;
+    align-self: center;
+    width: 95%;
+    line-height: 17px;
+  }
+}

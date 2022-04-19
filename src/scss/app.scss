@@ -1,0 +1,59 @@
+@import "./base/reset";
+@import "./base/typo";
+
+// utilidades
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+// Layout
+@import "./layout/navbar";
+@import "./layout/sectionOne";
+@import "./layout/sectionTwo";
+@import "./layout/sectionthree";
+@import "./layout/sectionFour";
+@import "./layout/sectionfive";
+@import "./layout/footer";
+@import "./layout/HowItWork";
+@import "./layout/WeAreTrusted";
+@import "./layout/demoVideo";
+@import "./layout/coreServices";
+@import "./layout/awesomeTeam";
+
+// components
+@import "./components/botones";
+@import "./components/cardLogo";
+@import "./components/gradienteTexto";
+@import "./components/backToTop";
+@import "./components/cardsHowItWork";
+@import "./components/awesomeTeamCards";
+
+body {
+  background: rgb(29, 1, 58);
+  background: linear-gradient(
+    180deg,
+    rgba(29, 1, 58, 1) 0%,
+    rgba(29, 1, 67, 1) 58%,
+    rgba(104, 35, 176, 1) 100%
+  );
+}
+
+.separador {
+  width: 70px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.Titulo {
+  font: $subtitulo;
+  font-size: 2rem;
+  color: $colorTextoPrincipal;
+  margin-bottom: 20px;
+}
+.subtituloSections {
+  font: $subtitulo;
+  font-size: 1rem;
+  color: $colorTextoPrincipal;
+  margin-bottom: 50px;
+  width: 40%;
+  text-align: center;
+}

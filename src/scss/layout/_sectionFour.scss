@@ -1,0 +1,150 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.sectionFour {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 7%;
+  max-height: 500px;
+  .sectionFourContenedorImagenes {
+    width: 80%;
+    position: relative;
+    margin: 0 5%;
+    align-self: center;
+    .contenedorImagenesImgOne {
+      width: 100%;
+      height: auto;
+      position: relative;
+      z-index: 1;
+      top: -110%;
+    }
+    // .contenedorImagenesImgTwo {
+    //   position: absolute;
+    //   width: 90%;
+    //   top: 30%;
+    //   left: -20%;
+    //   z-index: 2;
+    //   animation-name: pp;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes pp {
+    //     0% {
+    //       transform: translateY(-30px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-30px);
+    //     }
+    //   }
+    // }
+    // .contenedorImagenesImgThree {
+    //   position: absolute;
+    //   width: 30%;
+    //  top:10%;
+    //   right: 80%;
+    //   z-index: 3;
+    //   animation-name: iconOne;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes iconOne {
+    //     0% {
+    //       transform: translateY(-50px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-50px);
+    //     }
+    //   }
+    // }
+    // .contenedorImagenesImgFour {
+    //   width: 25%;
+    //   position: absolute;
+    //   bottom:5 0%;
+    //   left: 50%;
+    //   z-index: 4;
+    //   animation-name: iconTwo;
+    //   animation-duration: 4s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes iconTwo {
+    //     0% {
+    //       transform: translateY(-50px) translateX(10px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-50px) translateX(10px);
+    //     }
+    //   }
+    // }
+    // .contenedorImagenesImgFive {
+    //   width: 40%;
+    //   position: absolute;
+    //   bottom: 10%;
+    //   left: 50%;
+    //   z-index: 5;
+    //   animation-name: iconFour;
+    //   animation-duration: 3s;
+    //   -webkit-animation-iteration-count: infinite;
+    //   animation-iteration-count: infinite;
+    //   -webkit-animation-timing-function: ease-in-out;
+    //   animation-timing-function: ease-in-out;
+
+    //   @keyframes iconFour {
+    //     0% {
+    //       transform: translateY(-30px) translateX(30px);
+    //     }
+    //     50% {
+    //       transform: translateY(0px);
+    //     }
+
+    //     100% {
+    //       transform: translateY(-30px) translateX(30px);
+    //     }
+    //   }
+    // }
+  }
+  .sectionFourContenedorTextos {
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    margin: 0%;
+    align-self: center;
+
+    h3 {
+      font: $subtitulo;
+      color: $colorTextoPrincipal;
+      margin-bottom: 40px;
+    }
+    p {
+      font: $textoPrincipal;
+      color: $colorTextoPrincipal;
+      margin-bottom: 40px;
+    }
+    .btn {
+      width: 149px;
+      height: 56px;
+      margin: 0;
+    }
+  }
+}

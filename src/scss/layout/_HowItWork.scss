@@ -1,0 +1,27 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.HowItWork {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+
+  .HowItWorkContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .HowItWorkContenedorImagen {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    img {
+      width: 80%;
+    }
+  }
+  .HowItWorkContenedorCards {
+    width: 40%;
+  }
+}
