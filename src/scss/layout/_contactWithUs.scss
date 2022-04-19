@@ -1,0 +1,50 @@
+@import "../utilities/variables";
+@import "../utilities/mixins";
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 7%;
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
+    grid-template-areas:
+      "nombre mail"
+      "asunto asunto"
+      "mensaje mensaje"
+      "boton boton";
+    width: 60%;
+    gap: 20px;
+
+    .formNombre {
+      grid-area: nombre;
+      background-color: transparent;
+      border-bottom: 1.5px solid #05ebf7;
+    }
+    .formMail {
+      grid-area: mail;
+      background-color: transparent;
+      border-bottom: 1.5px solid #05ebf7;
+    }
+    .formAsunto {
+      grid-area: asunto;
+      background-color: transparent;
+      border-bottom: 1.5px solid #05ebf7;
+    }
+    .formMensaje {
+      grid-area: mensaje;
+      background-color: transparent;
+      border-bottom: 1.5px solid #05ebf7;
+    }
+    .formBoton {
+      grid-area: boton;
+      justify-self: center;
+      background-color: transparent;
+      border-bottom: 1.5px solid #05ebf7;
+    }
+  }
+}

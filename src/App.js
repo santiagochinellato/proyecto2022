@@ -12,6 +12,7 @@ import WeAreTrusted from "./components/WeAreTrusted";
 import DemoVideo from "./components/DemoVideo";
 import CoreServices from "./components/CoreServices";
 import AwesomeTeam from "./components/AwesomeTeam";
+import ContactWithUs from "./components/ContactWithUs";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <DemoVideo />
         <CoreServices />
         <AwesomeTeam />
+        <ContactWithUs />
       </main>
       <Footer />
     </>
