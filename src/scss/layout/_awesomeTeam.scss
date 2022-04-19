@@ -1,2 +1,17 @@
 @import "../utilities/variables";
 @import "../utilities/mixins";
+
+.awesomeTeam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 7%;
+  .contenedorTeamCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
