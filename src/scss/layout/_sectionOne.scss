@@ -7,6 +7,7 @@
   justify-content: space-around;
   // margin: 5% 5% 4% 5%;
   max-height: 800px;
+  min-height: 600px;
 
   .containerInfo {
     display: flex;
@@ -41,6 +42,7 @@
       width: 110%;
       height: auto;
       // bottom: -10%;
+      top: 10%;
       left: -20%;
       z-index: 1;
       animation-name: circ;

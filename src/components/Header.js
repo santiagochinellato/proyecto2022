@@ -2,11 +2,22 @@ import React from "react";
 import "../scss/app.scss";
 import SectionOne from "./SectionOne";
 
+// <!-- Menu de navegacion -->
+
 const Header = () => {
+  let nav = document.getElementById("nav");
+
+  window.addEventListener("scroll", function () {
+    if (window.pageYOffset > 10) {
+      document.getElementById("nav").style.backgroundColor = "#2D067A";
+    } else {
+      document.getElementById("nav").style.backgroundColor = "transparent";
+    }
+  });
   return (
     <div className="navbarSection">
       <div className="navBarContainer">
-        <div className="navBar">
+        <div className="navBar" id="nav">
           <img src="/images/logo/logo.png" alt="" />
           <nav>
             <ul>

@@ -13,6 +13,9 @@
     // width: 100%;
     // z-index: 1000;
     .navBar {
+      position: fixed;
+      width: 100%;
+      z-index: 2000;
       display: flex;
       flex-direction: row;
       align-items: center;
